@@ -1,0 +1,31 @@
+/*about.css*/
+.about .content  {margin-top: 2em;}
+.about .content .img {width: 28%;text-align: right;}
+.about .content .word h2{font-size: 5em;color: #e7c84b; line-height: 1.3;letter-spacing: 0.1em;}
+.about .content .word p{line-height: 2;font-size: 1.4em;padding-left: 5.7em;padding-right: 3em;}
+/*pc*/
+@media (min-width: 769px){
+	
+}
+@media (min-width: 769px) and (max-width: 1366px){
+    .about .content .img {width: 20%;}
+	.about .content .word h2 {font-size: 3em;}
+}
+/*mobile*/
+@media (max-width: 768px){
+    .about .content .img {width: auto;text-align: left;}
+    .about .content .img >div {width: 49%; display: inline-block;}
+    .about .content .word {margin-top: 2em;}
+    .about .content .word h2{font-size: 2em;}
+    .about .content .word p {padding: 0;}
+}
+
+
+
+
+
+
+
+
+
+

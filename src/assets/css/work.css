@@ -1,0 +1,71 @@
+/*work.css*/
+.work .content  {margin-top: 1.5%;}
+.work .work-category {margin-bottom: 3%;padding-left: 19%;}
+.work .work-category * {display: inline-block;margin-right: 2em;font-size: 2em;font-weight: normal;color: #888; cursor: pointer;}
+.work .work-category .active {color: #000;}
+.work .swiper-work {float: left;width:15%;position: relative;}
+.work .swiper-work::before {content: "";display: inline-block;padding-bottom: 155%;}
+.work .swiper-work > .swiper-mask {position: absolute;width: 100%; height: 100%;left:0;top: 0;}
+.work .swiper-work .logo {white-space: nowrap;cursor: pointer;}
+.work .swiper-work .logo:before {content: ""; height: 100%; display: inline-block;vertical-align: middle;}
+.work .swiper-work .logo img {vertical-align: middle;width: 100%;height: 90%;box-sizing: border-box;}
+.work .selected img {border: 2px #e7c84b solid;}
+
+.work .swiper-work > .swiper-button-prev {width: 100%;height: 0; padding-bottom: 12%;margin-top: -15%; background:url(../image/common/arrow-top.png) center no-repeat rgba(239,205,56,0.47); background-size: auto 50%;}
+.work .swiper-work > .swiper-button-next {top:auto;bottom:0;width: 100%;height: 0; padding-bottom: 12%;margin-bottom: -15%; background:url(../image/common/arrow-bottom.png) center no-repeat rgba(239,205,56,0.47);background-size: auto 50%;}
+.work .swiper-work > .swiper-button-prev:before,.work .swiper-work > .swiper-button-next:before {background-size: auto 70%;}
+
+.work .swiper-content {float: left; width: 80%;margin-top: -2.22%;margin-left: 4%;position: relative;height: 0; padding-bottom:28%;}
+.work .swiper-content-slide {position:absolute;width: 100%; height: 100%;left: 0;top: 0;}
+.work .swiper-kv {position:absolute;width: 63%;height: 100%; left: 0;top: 0;border: 1px #e7c84b solid;box-sizing: border-box;overflow: hidden;}
+.work .swiper-kv .swiper-slide {float: left;}
+.work .swiper-kv img {width: 100%;}
+
+.work .swiper-content-word {position:absolute;left: 68%;top: 0;width: 32%;}
+.work .swiper-content-word .title {font-size: 1.8em;padding-bottom: 1em; margin-bottom: 1em;border-bottom: 0.2em #f6e07e solid;}
+.work .swiper-content-word .description {font-size: 1.2em;line-height: 2;}
+.work .swiper-content-word .completion {font-size: 1.2em;font-family: Arial, Helvetica, sans-serif;border-top:1px #aaa solid;padding-top: 2em;margin-top: 2em;}
+.work .swiper-content-word b {display: inline-block;width: 50%;}
+
+/*
+.work .swiper-content {float: left; width: 50%;margin-top: -2.22%;margin-left: 5%;border: 1px #e7c84b solid;position: relative;height: 0; padding-bottom:28%;overflow: hidden;}
+.work .swiper-content-slide {position:absolute;width: 100%; height: 100%;left: 0;top: 0;}
+*/
+
+/*pc*/
+@media (min-width: 769px){
+	
+}
+@media (min-width: 769px) and (max-width: 1366px){
+	.work .content  {margin-top: 1%;}
+    .work .work-category {margin-bottom: 3%;}
+}
+/*mobile*/
+@media (max-width: 768px){
+    .work .content  {margin-top: 5%;margin-bottom: 5%;}
+    .work .swiper-work {float: none;width: 90%;margin: auto;}
+    .work .swiper-work::before {padding-bottom: 13.6%;}
+    .work .swiper-work > .swiper-mask {position:absolute;}
+    .work .swiper-work .logo {float: left;text-align: center;}
+    .work .swiper-work .logo img {width: 90%; height: 100%;}
+    .work .swiper-work > .swiper-button-prev{width:5%; height: 100%; padding: 0; margin: 0;left:-5%;background:none;}
+    .work .swiper-work > .swiper-button-next{width:5%; height: 100%; padding: 0; margin: 0;right: -5%; background:none;}
+    .work .swiper-work > .swiper-button-prev:before,.work .swiper-work > .swiper-button-next:before {width: 100%; background-size:100% auto; background-position: center;}
+    
+    .work .swiper-content {float: none;width: auto;margin: auto;margin-top: 2em; height: auto; padding-bottom: 0;}
+    .work .swiper-kv {position: relative;width: auto;}
+    .work .work-category {text-align: center;}
+    .work .work-category * {font-size: 1em;}
+    .work .swiper-content-word {position: relative;left: auto;margin-top: 2em;}
+    .work .swiper-content-word .title {text-align: center;}
+}
+
+
+
+
+
+
+
+
+
+
